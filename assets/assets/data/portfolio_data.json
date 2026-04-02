@@ -1,0 +1,287 @@
+{
+  "profile": {
+    "name": "Taha Elkholy",
+    "title": "Software Engineer | Flutter Developer",
+    "summary": "Software Engineer specializing in Flutter mobile development with 3+ years of experience building high-performance Flutter applications for iOS and Android. Delivered 6+ production apps with 12K+ downloads using Clean Architecture, modern state management, and scalable architectures with full CI/CD pipelines and app store deployment. Seeking a role within a structured team where engineering quality is a priority.",
+    "location": "Alexandria, Egypt",
+    "email": "tahaelkholy.dev@gmail.com",
+    "phone": "+20 1017459347",
+    "openToRemote": true,
+    "cvUrl": "https://drive.google.com/file/d/1rjIQZDKzGuA75P1FdA25tU5ktw_CjJmX/view?usp=sharing",
+    "stats": {
+      "yearsExperience": 3,
+      "appsBuilt": 6,
+      "downloadsInK": 12,
+      "openSourcePrs": 3
+    }
+  },
+  "links": {
+    "linkedIn": "https://www.linkedin.com/in/taha-elkholy",
+    "github": "https://github.com/taha-elkholy"
+  },
+  "skills": {
+    "Languages & Frameworks": [
+      "Dart",
+      "Flutter"
+    ],
+    "Architecture & Patterns": [
+      "Clean Architecture",
+      "MVVM",
+      "SOLID Principles",
+      "Dependency Injection"
+    ],
+    "State Management": [
+      "BLoC",
+      "Riverpod",
+      "Provider"
+    ],
+    "Backend & BaaS": [
+      "RESTful APIs",
+      "Firebase Auth",
+      "Firestore",
+      "Firebase Cloud Messaging (FCM)"
+    ],
+    "Data & Storage": [
+      "SQLite",
+      "Hive",
+      "Shared Preferences",
+      "Secure Storage"
+    ],
+    "DevOps & Deployment": [
+      "GitHub Actions",
+      "GitLab CI/CD",
+      "Fastlane",
+      "App Flavors",
+      "Shorebird",
+      "Firebase App Distribution",
+      "Google Play Console",
+      "App Store Connect"
+    ],
+    "Observability & Analytics": [
+      "Firebase Analytics",
+      "Crashlytics",
+      "Sentry"
+    ],
+    "Maps & Hardware": [
+      "Google Maps SDK",
+      "OS Maps",
+      "NFC",
+      "Real-time GPS tracking"
+    ],
+    "Developer Tools & IDEs": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Android Studio",
+      "VS Code",
+      "Cursor",
+      "Flutter DevTools",
+      "Figma"
+    ],
+    "Testing & Quality": [
+      "Unit Testing",
+      "bloc_test",
+      "flutter_test",
+      "mocktail",
+      "mockito",
+      "Code Review"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Techniqium LTD",
+      "role": "Flutter Developer",
+      "type": "Remote (Part-time → Full-time)",
+      "period": "Nov 2023 – Present",
+      "bullets": [
+        "Delivered 3 production-grade Flutter applications serving 5K+ active users across social networking,transportation, and utility domains.",
+        "Architected a multi-brand solution using Flutter Flavors across 2 deployments, eliminating duplicated codebases by enabling separate databases, branding, and deployment pipelines from a single codebase.",
+        "Engineered end-to-end CI/CD pipelines automating 8 store targets across iOS and Android — reducing each release to a single branch push delivered in under 15 minutes.",
+        "Led code reviews and technical mentoring for 1 junior developer at a time, enforcing Clean Architecture principles and maintaining codebase consistency across the team.",
+        "Coordinated async delivery across a UK-based remote team, contributing to sprint planning, technical documentation, and architecture decisions."
+      ],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "App Flavors",
+        "FCM",
+        "OS Maps",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Fastlane"
+      ]
+    },
+    {
+      "company": "HNE Futures",
+      "role": "Flutter Developer",
+      "type": "Hybrid – Cairo (Full-time)",
+      "period": "Nov 2023 – Jun 2024",
+      "bullets": [
+        "Developed 2 production-grade Flutter applications for electric vehicle (EV) charging management and e-mobility services, serving users across 7 countries in the MENA region.",
+        "Integrated Google Maps APIs to display 500+ real-time charging stations, enabling station discovery, route planning, and AI-powered range calculation across the platform.",
+        "Collaborated cross-functionally with embedded systems engineers, UI/UX designers, and backend developers, delivering features across 12+ sprint cycles within Agile 2-week cadences.",
+        "Improved application stability by implementing 100+ unit tests covering use cases, repositories, and core services, reducing regression risk throughout the development lifecycle."
+      ],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Clean Architecture",
+        "Google Maps SDK",
+        "REST APIs",
+        "Firebase",
+        "Unit Testing"
+      ]
+    },
+    {
+      "company": "Kafel Yateem",
+      "role": "Flutter Developer",
+      "type": "Freelance – Remote",
+      "period": "May 2023 – Nov 2023",
+      "bullets": [
+        "Designed and built an orphan sponsorship platform managing 120+ child profiles with secure donation tracking, supporting one-time and recurring monthly contributions.",
+        "Implemented Firebase Auth and Firestore for real-time data sync and secure user management with role-based access control."
+      ],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Firebase Auth",
+        "Firestore",
+        "Storage"
+      ]
+    },
+    {
+      "company": "Amyal Logistics Platform",
+      "role": "Flutter Developer",
+      "type": "Remote (Part-time)",
+      "period": "Aug 2021 – Nov 2022",
+      "bullets": [
+        "Built a secure logistics and payment application from scratch, engineering a sub-1-second NFC payment transaction flow that significantly streamlined the user checkout experience.",
+        "Sole mobile developer on the project: designed the architecture, selected libraries, and managed app store submission end-to-end."
+      ],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "NFC",
+        "REST APIs",
+        "Firebase"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Alexandria University",
+      "degree": "BSc, Geology & Geophysics",
+      "period": "Sep 2011 – Jul 2015"
+    }
+  ],
+  "training": [
+    {
+      "institution": "Mega Trust Group",
+      "title": "Flutter Boot Camp",
+      "period": "Mar 2022 – May 2022",
+      "description": "Completed intensive 3-month professional training in Flutter development, Clean Architecture, and SOLID principles."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Flutter Clean Architecture",
+      "issuer": "Udemy",
+      "date": "Nov 2022"
+    },
+    {
+      "title": "Flutter & Dart – The Complete Development Course",
+      "issuer": "Udemy",
+      "date": "Oct 2021"
+    },
+    {
+      "title": "Android Development Diploma",
+      "issuer": "Route",
+      "date": "May 2020"
+    },
+    {
+      "title": "Android Basics Nanodegree",
+      "issuer": "Udacity",
+      "date": "Sep 2019"
+    }
+  ],
+  "productionApps": [
+    {
+      "name": "Multaqa",
+      "category": "Muslim Lifestyle Platform",
+      "description": "Community-driven Muslim lifestyle platform for Muslims in the UK. Prayer times, halal directory, community networking with background notifications.",
+      "downloads": "700+",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=io.multaqa",
+      "appStoreUrl": "https://apps.apple.com/us/app/multaqa/id6479318135"
+    },
+    {
+      "name": "EV Cozmo",
+      "category": "Electric Vehicle Platform",
+      "description": "All-in-one EV platform live across Egypt, KSA, UAE, Jordan, Qatar, Kuwait & Morocco. Route planning, charger discovery, AI-powered range calculation, Google Maps integration.",
+      "downloads": "2K+",
+      "rating": "4.7",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.evcozmo.app",
+      "appStoreUrl": "https://apps.apple.com/us/app/ev-cozmo/id6504797651"
+    },
+    {
+      "name": "عطريقك",
+      "category": "Ride-Sharing App",
+      "description": "Connects drivers and passengers heading to the same destination. Trip posting, booking, real-time GPS tracking, in-app chat. Built with Flutter Flavors supporting 2 separate brands from a single codebase.",
+      "downloads": null,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.atareeqak",
+      "appStoreUrl": "https://apps.apple.com/us/app/atareeqak-%D8%B9%D8%B7%D8%B1%D9%8A%D9%82%D9%83/id6754688977"
+    },
+    {
+      "name": "HNE Futures",
+      "category": "EV Charging Manager",
+      "description": "EV charging session management with real-time hardware-software integration, serving users across 7 countries in the MENA region.",
+      "downloads": "2.5K+",
+      "rating": "5.0",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=app.hnefutures.com",
+      "appStoreUrl": "https://apps.apple.com/us/app/hne-futures/id6443637664"
+    },
+    {
+      "name": "الأربعين النووية",
+      "category": "Hadith Study App",
+      "description": "Offline-first app for browsing and studying the 40 Hadith of Al-Nawawi. Originally built as a native Android app, later migrated to Flutter.",
+      "downloads": "5K+",
+      "rating": "4.9",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.abdelaziz.taha.arba3nnawawia",
+      "appStoreUrl": null
+    },
+    {
+      "name": "صلة",
+      "category": "Complaints & Reports Platform",
+      "description": "Smart platform for submitting complaints and reports easily and securely. Detailed report submission supported by photos and geographic location. Offline-first architecture.",
+      "downloads": null,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=cloud.silah",
+      "appStoreUrl": "https://apps.apple.com/us/app/silah-%D8%B5%D9%84%D8%A9/id6747985483"
+    }
+  ],
+  "openSourceContributions": [
+    {
+      "name": "Flutter Jailbreak Detection Plus Package",
+      "description": "Reviewed and contributed to Flutter jailbreak detection feature. PR is currently open for review.",
+      "prUrl": "https://github.com/yazanalkamsheh/flutter_jailbreak_detection_plus/pull/7",
+      "repoUrl": "https://github.com/yazanalkamsheh/flutter_jailbreak_detection_plus",
+      "prNumber": 7,
+      "status": "open"
+    },
+    {
+      "name": "Alarm Package",
+      "description": "Resolved an iOS notification persistence issue and introduced the keepNotificationAfterAlarmEnds enhancement into the alarm plugin used by 337+ developers worldwide.",
+      "prUrl": "https://github.com/gdelataillade/alarm/pull/394",
+      "repoUrl": "https://github.com/gdelataillade/alarm",
+      "prNumber": 394,
+      "status": "merged"
+    },
+    {
+      "name": "FlutterToast Package",
+      "description": "Diagnosed and fixed RTL text display regression in a widely-used Flutter package with 4.11K pub.dev likes.",
+      "prUrl": "https://github.com/ponnamkarthik/FlutterToast/pull/515",
+      "repoUrl": "https://github.com/ponnamkarthik/FlutterToast",
+      "prNumber": 515,
+      "status": "merged"
+    }
+  ]
+}
