@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/portfolio-web/">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO ============ -->
+  <title>Taha Elkholy — Mobile Application Engineer | Flutter Developer</title>
+  <meta name="description" content="Taha Elkholy — Mobile Application Engineer specializing in Flutter. 4+ years building and shipping production apps for iOS and Android. Open source contributor. Based in Egypt, open to relocation.">
+  <meta name="author" content="Taha Elkholy">
+  <meta name="keywords" content="Taha Elkholy, Flutter Developer, Mobile Application Engineer, Dart, iOS, Android, Clean Architecture, BLoC, CI/CD, Fastlane, Flutter Flavors, Firebase, Egypt">
+  <link rel="canonical" href="https://taha-elkholy.github.io/portfolio-web/">
+
+  <!-- ============ Open Graph (LinkedIn, WhatsApp, Facebook) ============ -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Taha Elkholy">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://taha-elkholy.github.io/portfolio-web/">
+  <meta property="og:title" content="Taha Elkholy — Mobile Application Engineer | Flutter Developer">
+  <meta property="og:description" content="4+ years building and shipping production Flutter apps for iOS and Android. Open source contributor to Flutter packages.">
+  <meta property="og:image" content="https://taha-elkholy.github.io/portfolio-web/og-image.png?v=2">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Taha Elkholy — Mobile Application Engineer, Flutter Developer">
+  <meta property="profile:first_name" content="Taha">
+  <meta property="profile:last_name" content="Elkholy">
+
+  <!-- ============ Twitter / X ============ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Taha Elkholy — Mobile Application Engineer | Flutter Developer">
+  <meta name="twitter:description" content="4+ years building and shipping production Flutter apps for iOS and Android. Open source contributor to Flutter packages.">
+  <meta name="twitter:image" content="https://taha-elkholy.github.io/portfolio-web/og-image.png?v=2">
+
+  <!-- ============ Structured data ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Taha Elkholy",
+    "alternateName": "Taha Abdelaziz Elkholy",
+    "url": "https://taha-elkholy.github.io/portfolio-web/",
+    "image": "https://taha-elkholy.github.io/portfolio-web/og-image.png",
+    "jobTitle": "Mobile Application Engineer",
+    "email": "mailto:tahaelkholy.dev@gmail.com",
+    "description": "Mobile Application Engineer specializing in Flutter, with 4+ years building and shipping production apps for iOS and Android.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Damanhur",
+      "addressRegion": "Beheira",
+      "addressCountry": "EG"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Techniqium LTD"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Alexandria University"
+    },
+    "knowsLanguage": ["ar", "en"],
+    "knowsAbout": [
+      "Flutter", "Dart", "iOS", "Android", "Clean Architecture",
+      "BLoC", "CI/CD", "Fastlane", "Flutter Flavors", "Firebase"
+    ],
+    "sameAs": [
+      "https://github.com/taha-elkholy",
+      "https://www.linkedin.com/in/taha-elkholy"
+    ]
+  }
+  </script>
+
+  <!-- ============ iOS meta tags & icons ============ -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Taha Elkholy">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: #0A0E17;
+      overflow: hidden;
+    }
+  </style>
+  <style id="splash-screen-style">
+    html { height: 100% }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #0A0E17;
+      background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .stretch { display: block; width: 100%; height: 100%; }
+    .cover   { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+    .bottom      { position: absolute; bottom: 0; left: 50%; -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+    .bottomLeft  { position: absolute; bottom: 0; left: 0; }
+    .bottomRight { position: absolute; bottom: 0; right: 0; }
+
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #0A0E17; }
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
+</head>
+<body>
+  <picture id="splash">
+    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+
+  <!-- Text fallback for crawlers and no-JS clients. Not shown to normal visitors. -->
+  <noscript>
+    <div style="color:#F2F4F8;font-family:sans-serif;max-width:720px;margin:48px auto;padding:0 24px;line-height:1.6">
+      <h1>Taha Elkholy — Mobile Application Engineer | Flutter Developer</h1>
+      <p>
+        Mobile Application Engineer specializing in Flutter, with 4+ years building and
+        shipping production applications for iOS and Android. Background in native Android
+        development. Open source contributor to Flutter packages.
+      </p>
+      <p>Damanhur, Beheira, Egypt — open to relocation.</p>
+      <ul>
+        <li><a href="https://github.com/taha-elkholy">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/taha-elkholy">LinkedIn</a></li>
+        <li><a href="mailto:tahaelkholy.dev@gmail.com">tahaelkholy.dev@gmail.com</a></li>
+      </ul>
+    </div>
+  </noscript>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
